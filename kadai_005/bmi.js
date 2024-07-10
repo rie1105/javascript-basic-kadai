@@ -3,4 +3,7 @@ let bodyWeight = 68;
 let bodyHight = 1.7;
 
 // BMIの計算
-console.log(bodyWeight /= bodyHight *= bodyHight);
+let bmi =bodyWeight /= bodyHight *= bodyHight;
+
+// コンソールへの出力
+console.log(bmi);
