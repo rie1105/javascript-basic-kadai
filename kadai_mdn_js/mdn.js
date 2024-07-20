@@ -1,7 +1,7 @@
-const date = new Date("2023-09-22");
+const date = new Date("2023-08-22");
 
 const [month,day,year] = [
-    date.getMonth(),
+    date.getMonth()+1,
     date.getDate(),
     date.getFullYear(),
 ];
