@@ -1,11 +1,10 @@
 // btnというidを持つHTML要素を取得し、定数に代入する
 const btn = document.getElementById('btn');
 
-// textというidを持つHTML要素を取得し、定数に代入する
-const text = document.getElementById('text');
-
+// 'ボタンをクリックしました'を、定数に代入する
+const text = 'ボタンをクリックしました';
 // HTML要素がクリックされたときにイベント処理を実行する
 btn.addEventListener('click',() => {
     // HTMLを書き換える
-    document.getElementById('text').textContent='ボタンをクリックしました';
+    document.getElementById('text').textContent=　text;
 });
